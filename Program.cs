@@ -21,6 +21,17 @@ public class Program
         int so2 = Convert.ToInt32(Console.ReadLine());
         int tong = so1 + so2;
         Console.WriteLine($"Tổng là {tong}");
+        //tính tổng điểm của hai môn Toán và Lý trong kỳ thi 
+        Console.WriteLine("điểm thi đại học hai môn toán lý");
+        Console.WriteLine("Điểm thi đại học môn toán");
+        int Toan = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Điểm thi đại học môn Lý");
+        int Ly = Convert.ToInt32(Console.ReadLine());
+        int Tong = Toan + Ly;
+        Console.WriteLine($"Tổng{Tong}");
+        // hãy tính tổng điểm ba môn Toán, Lý, Hóa kỳ thi học trung học cơ sở
+ 
+
 
     }
 }
